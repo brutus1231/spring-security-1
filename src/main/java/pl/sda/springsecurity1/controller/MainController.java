@@ -20,8 +20,8 @@ public class MainController {
         return "index";
     }
 
-    @GetMapping(value = "/login")
-    public String logout() {
-        return "index";
-    }
+//    @GetMapping(value = "/login")
+//    public String logout() {
+//        return "index";
+//    }
 }
