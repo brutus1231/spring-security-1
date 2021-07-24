@@ -19,4 +19,9 @@ public class MainController {
         model.addAttribute("login", principal.getUsername());
         return "index";
     }
+
+    @GetMapping(value = "/login")
+    public String logout() {
+        return "index";
+    }
 }
